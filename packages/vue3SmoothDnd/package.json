@@ -1,0 +1,30 @@
+{
+  "name": "vue3SmoothDnd",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "cross-env mode=development rollup -c rollup.config.js -w",
+    "build": "cross-env mode=production rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-typescript": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@vue/babel-plugin-jsx": "^1.0.6",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "rollup": "^4.19.0",
+    "typescript": "^5.5.3",
+    "vue": "^3.4.33",
+    "smooth-dnd": "^0.12.1"
+  }
+}
