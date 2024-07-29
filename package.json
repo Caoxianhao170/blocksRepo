@@ -13,5 +13,6 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "version": ""
 }
