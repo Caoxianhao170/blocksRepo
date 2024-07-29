@@ -2,11 +2,14 @@
   "name": "atomBlocks",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:dev": "cross-env mode=development rollup -c rollup.config.js -w",
     "build": "cross-env mode=production rollup -c rollup.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [],
   "author": "",
