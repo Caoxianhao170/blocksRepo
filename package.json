@@ -1,6 +1,5 @@
 {
   "name": "blocksRepo",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
